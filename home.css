@@ -1,0 +1,288 @@
+footer p{
+    font-size:10x;
+}
+.accordion-button {
+    background-color: #d3d3d3; /* Light grey */
+    color: #000;
+}
+.accordion-button:hover {
+    background-color: #bfbfbf;
+}
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: #d3d3d3;
+}
+.accordion-body {
+    background-color: #ffffff; /* White background */
+    color: #000;
+}
+.accordion-item {
+    margin-bottom: 15px;
+}
+.faq-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px; 
+    font-weight: bold;
+    color: #000;
+    margin: 20px 0;
+    position: relative;
+}
+
+.faq-title::before,
+.faq-title::after {
+    content: "";
+    flex: auto;
+    height: 5px; 
+    background-color: red;
+    margin: 0 10px; 
+}
+/* General Section Styling */
+.coverage-section {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.coverage-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+    position: relative;
+}
+
+.coverage-title::before,
+.coverage-title::after {
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 50px;
+    background-color: red;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* Coverage Items */
+.coverage-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.coverage-item {
+    text-align: center;
+    flex: 1;
+    max-width: 220px;
+}
+
+.coverage-item img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.coverage-badge {
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.coverage-item h3 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #000;
+}
+
+.coverage-item .subtitle {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.coverage-item p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Buy Button */
+.buy-button-container {
+    margin-top: 30px;
+}
+
+.buy-button {
+    background-color: red;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: darkred;
+}
+/* General Section Styling */
+.benefits-section {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.benefits-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+    position: relative;
+}
+
+.benefits-title::before,
+.benefits-title::after {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    background-color: red;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* Benefit Items */
+.benefits-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.benefit-item {
+    flex: 1;
+    max-width: 150px;
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.benefit-item:hover {
+    background-color: #ffecec; /* Light red background on hover */
+}
+
+.benefit-item img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.benefit-item h3 {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Footer Section */
+.benefits-footer {
+    margin-top: 20px;
+    background-color: #e6f7f9; /* Light blue footer */
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.buy-button {
+    background-color: red;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.buy-button:hover {
+    background-color: darkred;
+}
+.trust-section {
+    background-color: #f9f9f9;
+  }
+  
+  .trust-section h3 {
+    margin-bottom: 15px;
+  }
+  
+  .trust-section p {
+    margin-bottom: 10px;
+  }
+  
+  .trust-section .btn-danger {
+    background-color: #d9534f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .trust-section .btn-danger:hover {
+    background-color: #c9302c;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .quote-section {
+    background-color: #f9f9f9;
+  }
+  
+  .quote-section h2, .quote-section h3 {
+    line-height: 1.5;
+  }
+  
+  .quote-section .form-control,
+  .quote-section .form-select {
+    border-radius: 5px;
+  }
+  
+  .quote-section .btn-danger {
+    background-color: #d9534f;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .quote-section .btn-danger:hover {
+    background-color: #c9302c;
+  }
+  
+  .quote-section .bg-light {
+    background-color: #eaf7fd !important;
+  }
+.main-image{
+    position: absolute;
+    top: 170px;
+}    
+
+@media (max-width: 768px) {
+    .main-image {
+        position: static;
+        top: auto;
+    }
+}
